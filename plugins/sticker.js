@@ -2,7 +2,6 @@
 
 import fetch from 'node-fetch'
 import { addExif } from '../lib/sticker.js'
-import { Sticker } from 'wa-sticker-formatter'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 	let stiker = false
